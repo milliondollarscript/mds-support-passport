@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "package": "mds-support-passport",
+  "type": "extension",
+  "version": "0.2.0",
+  "channel": "main",
+  "title": "Proof of Support Passport",
+  "docs": [
+    {
+      "id": "usage",
+      "title": "Proof of Support Passport",
+      "file": "USAGE.md",
+      "audience": ["admin", "support", "developer", "legal-review"],
+      "topics": ["extensions", "privacy", "moderation", "rest-api", "legal"]
+    }
+  ]
+}

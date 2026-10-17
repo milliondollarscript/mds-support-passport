@@ -1,0 +1,687 @@
+.mds-support-passport-admin .nav-tab-wrapper {
+    margin: 18px 0;
+}
+
+.mds-support-passport-admin .notice-success,
+.mds-support-passport-admin .notice-success.inline {
+    background: #ecfdf5;
+    border-color: #047857;
+    color: #065f46;
+}
+
+.mds-support-passport-admin .notice-error,
+.mds-support-passport-admin .notice-error.inline {
+    background: #fef2f2;
+    border-color: #b91c1c;
+    color: #7f1d1d;
+}
+
+.mds-support-passport-admin .notice-warning,
+.mds-support-passport-admin .notice-warning.inline {
+    background: #fffbeb;
+    border-color: #d97706;
+    color: #78350f;
+}
+
+.mds-support-passport-admin .notice-info,
+.mds-support-passport-admin .notice-info.inline {
+    background: #eff6ff;
+    border-color: #2563eb;
+    color: #1e3a8a;
+}
+
+.mds-support-passport-admin .notice p,
+.mds-support-passport-admin .notice strong {
+    color: inherit;
+}
+
+.mds-support-passport-admin .description,
+.mds-support-passport-admin small {
+    color: var(--mds3-admin-muted, #646970);
+}
+
+.mds-support-passport-metrics {
+    display: grid;
+    gap: 12px;
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+    margin: 16px 0;
+}
+
+.mds-support-passport-metrics div {
+    background: var(--mds3-admin-surface-subtle, #f6f7f7);
+    border: 1px solid var(--mds3-admin-border, #dcdcde);
+    border-radius: 8px;
+    padding: 14px;
+}
+
+.mds-support-passport-metrics strong,
+.mds-support-passport-metrics span {
+    display: block;
+}
+
+.mds-support-passport-metrics strong {
+    font-size: 28px;
+    line-height: 1;
+}
+
+.mds-support-passport-metrics span {
+    color: var(--mds3-admin-muted, #646970);
+    margin-top: 6px;
+}
+
+.mds-support-passport-form {
+    display: grid;
+    gap: 14px;
+    max-width: 760px;
+}
+
+.mds-support-passport-form label {
+    display: grid;
+    gap: 5px;
+}
+
+.mds-support-passport-form label > span {
+    font-weight: 600;
+}
+
+.mds-support-passport-form small {
+    color: var(--mds3-admin-muted, #646970);
+}
+
+.mds-support-passport-fieldset {
+    background: var(--mds3-admin-surface-subtle, #f6f7f7);
+    border: 1px solid var(--mds3-admin-border, #dcdcde);
+    border-radius: 8px;
+    display: grid;
+    gap: 12px;
+    margin: 0;
+    padding: 14px;
+}
+
+.mds-support-passport-fieldset legend {
+    font-weight: 700;
+    padding: 0 4px;
+}
+
+.mds-support-passport-fieldset .description {
+    margin: 0;
+}
+
+.mds-support-passport-section-header {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.mds-support-passport-section-header h2 {
+    margin: 0;
+}
+
+.mds-support-passport-inline {
+    align-items: center;
+    display: inline-flex !important;
+    gap: 8px;
+}
+
+.mds-support-passport-inline input {
+    margin: 0;
+}
+
+.mds-support-passport-inline-form {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.mds-support-passport-actions {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.mds-support-passport-actions form {
+    display: inline-flex;
+    margin: 0;
+}
+
+.mds-support-passport-actions .button,
+.mds-support-passport-inline-form .button {
+    min-height: 30px;
+}
+
+.mds-support-passport-link-list {
+    display: grid;
+    gap: 10px;
+    margin-bottom: 4px;
+}
+
+.mds-support-passport-link-row {
+    align-items: end;
+    display: grid;
+    gap: 8px;
+    grid-template-columns: minmax(220px, 1fr) auto;
+}
+
+.mds-support-passport-link-row label {
+    display: grid;
+    gap: 4px;
+    margin: 0;
+}
+
+.mds-support-passport-link-row label > span {
+    font-weight: 600;
+}
+
+.mds-support-passport-link-row input[readonly] {
+    background: var(--mds3-admin-surface, #fff);
+    color: var(--mds3-admin-text, #1d2327);
+    width: 100%;
+}
+
+.mds-support-passport-steps {
+    display: grid;
+    gap: 10px;
+    margin: 14px 0 0;
+    padding: 0;
+}
+
+.mds-support-passport-steps li {
+    background: var(--mds3-admin-surface-subtle, #f6f7f7);
+    border: 1px solid var(--mds3-admin-border, #dcdcde);
+    border-radius: 8px;
+    list-style-position: inside;
+    margin: 0;
+    padding: 12px;
+}
+
+.mds-support-passport-page-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 14px;
+}
+
+.mds-support-passport-page-pill {
+    align-items: center;
+    background: var(--mds3-admin-surface-subtle, #f6f7f7);
+    border: 1px solid var(--mds3-admin-border, #dcdcde);
+    border-radius: 999px;
+    color: var(--mds3-admin-text, #1d2327);
+    display: inline-flex;
+    font-weight: 600;
+    min-height: 30px;
+    padding: 4px 12px;
+    text-decoration: none;
+}
+
+.mds-support-passport-page-pill:hover,
+.mds-support-passport-page-pill:focus {
+    border-color: var(--mds3-admin-accent, #2563eb);
+    color: var(--mds3-admin-text, #1d2327);
+}
+
+.mds-support-passport-page-pill.is-missing {
+    color: var(--mds3-admin-muted, #646970);
+}
+
+.mds-support-passport-resource-grid {
+    display: grid;
+    gap: 12px;
+    grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+    margin-top: 14px;
+}
+
+.mds-support-passport-resource-card {
+    background: var(--mds3-admin-surface-subtle, #f6f7f7);
+    border: 1px solid var(--mds3-admin-border, #dcdcde);
+    border-radius: 8px;
+    display: grid;
+    gap: 8px;
+    min-width: 0;
+    padding: 12px;
+}
+
+.mds-support-passport-resource-card > span {
+    color: var(--mds3-admin-muted, #646970);
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.mds-support-passport-resource-card strong,
+.mds-support-passport-resource-card code {
+    overflow-wrap: anywhere;
+}
+
+.mds-support-passport-resource-card p {
+    color: var(--mds3-admin-muted, #646970);
+    margin: 0;
+}
+
+.mds-support-passport-filter-bar {
+    align-items: end;
+    background: var(--mds3-admin-surface-subtle, #f6f7f7);
+    border: 1px solid var(--mds3-admin-border, #dcdcde);
+    border-radius: 8px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: minmax(180px, 1.3fr) minmax(150px, 0.8fr) minmax(150px, 0.8fr) minmax(130px, 0.7fr) auto;
+    margin: 0 0 14px;
+    padding: 12px;
+}
+
+.mds-support-passport-filter-bar label {
+    display: grid;
+    gap: 5px;
+    margin: 0;
+    min-width: 0;
+}
+
+.mds-support-passport-filter-bar label > span {
+    font-weight: 600;
+}
+
+.mds-support-passport-filter-bar input,
+.mds-support-passport-filter-bar select {
+    max-width: 100%;
+    width: 100%;
+}
+
+.mds-support-passport-filter-actions {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.mds-support-passport-resource-card .button,
+.mds-support-passport-filter-actions .button {
+    justify-self: start;
+}
+
+.mds-support-passport-media-field {
+    display: grid;
+    gap: 8px;
+}
+
+.mds-support-passport-media-field > label {
+    margin: 0;
+}
+
+.mds-support-passport-media-field input[type="number"] {
+    max-width: 180px;
+}
+
+.mds-support-passport-media-preview {
+    align-items: center;
+    background: var(--mds3-admin-surface-subtle, #f6f7f7);
+    border: 1px dashed var(--mds3-admin-border, #dcdcde);
+    border-radius: 8px;
+    display: inline-flex;
+    justify-content: center;
+    min-height: 76px;
+    padding: 10px;
+    width: 96px;
+}
+
+.mds-support-passport-badge-cell {
+    align-items: center;
+    display: flex;
+    gap: 10px;
+}
+
+.mds-support-passport-revoke {
+    display: inline-block;
+    position: relative;
+}
+
+.mds-support-passport-revoke summary {
+    cursor: pointer;
+    list-style: none;
+}
+
+.mds-support-passport-revoke summary::-webkit-details-marker {
+    display: none;
+}
+
+.mds-support-passport-revoke:not([open]) .mds-support-passport-revoke-panel {
+    display: none;
+}
+
+.mds-support-passport-revoke-panel {
+    background: var(--mds3-admin-surface, #fff);
+    border: 1px solid var(--mds3-admin-border, #dcdcde);
+    border-radius: 8px;
+    box-shadow: 0 12px 28px rgba(15, 23, 42, 0.16);
+    color: var(--mds3-admin-text, #1d2327);
+    padding: 12px;
+    position: absolute;
+    right: 0;
+    top: calc(100% + 6px);
+    width: min(280px, calc(100vw - 48px));
+    z-index: 30;
+}
+
+.mds-support-passport-revoke-form {
+    display: grid;
+    gap: 8px;
+}
+
+.mds-support-passport-revoke-form label {
+    display: grid;
+    gap: 5px;
+}
+
+.mds-support-passport-revoke-form label > span {
+    font-weight: 600;
+}
+
+.mds-support-passport-revoke-form input[type="text"] {
+    width: 100%;
+}
+
+.mds-support-passport-revoke-form .description {
+    margin: 0;
+}
+
+.mds-support-passport-badge {
+    border: 1px solid currentColor;
+    border-radius: 999px;
+    display: inline-flex;
+    font-weight: 700;
+    line-height: 1.2;
+    padding: 4px 10px;
+}
+
+.mds-support-passport-badge-visual {
+    align-items: center;
+    background: #1d4ed8;
+    border-radius: 999px;
+    color: #ffffff;
+    display: inline-flex;
+    flex: 0 0 auto;
+    font-size: 16px;
+    font-weight: 800;
+    height: 42px;
+    justify-content: center;
+    line-height: 1;
+    overflow: hidden;
+    width: 42px;
+}
+
+.mds-support-passport-badge-visual.is-preview {
+    font-size: 22px;
+    height: 56px;
+    width: 56px;
+}
+
+.mds-support-passport-badge-visual .mds-support-passport-badge-image {
+    display: block;
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+.mds-support-passport-badge.is-blue,
+.mds-support-passport-card.is-blue {
+    color: #1d4ed8;
+}
+
+.mds-support-passport-badge.is-green,
+.mds-support-passport-card.is-green {
+    color: #047857;
+}
+
+.mds-support-passport-badge.is-gold,
+.mds-support-passport-card.is-gold {
+    color: #92400e;
+}
+
+.mds-support-passport-badge.is-purple,
+.mds-support-passport-card.is-purple {
+    color: #6d28d9;
+}
+
+.mds-support-passport-badge.is-slate,
+.mds-support-passport-card.is-slate {
+    color: #334155;
+}
+
+.mds-support-passport-badge-visual.is-blue {
+    background: #1d4ed8;
+}
+
+.mds-support-passport-badge-visual.is-green {
+    background: #047857;
+}
+
+.mds-support-passport-badge-visual.is-gold {
+    background: #92400e;
+}
+
+.mds-support-passport-badge-visual.is-purple {
+    background: #6d28d9;
+}
+
+.mds-support-passport-badge-visual.is-slate {
+    background: #334155;
+}
+
+body.mds3-admin-theme-dark .mds-support-passport-badge.is-blue,
+body.mds3-admin-theme-dark .mds-support-passport-card.is-blue {
+    color: #93c5fd;
+}
+
+body.mds3-admin-theme-dark .mds-support-passport-badge.is-green,
+body.mds3-admin-theme-dark .mds-support-passport-card.is-green {
+    color: #6ee7b7;
+}
+
+body.mds3-admin-theme-dark .mds-support-passport-badge.is-gold,
+body.mds3-admin-theme-dark .mds-support-passport-card.is-gold {
+    color: #fcd34d;
+}
+
+body.mds3-admin-theme-dark .mds-support-passport-badge.is-purple,
+body.mds3-admin-theme-dark .mds-support-passport-card.is-purple {
+    color: #c4b5fd;
+}
+
+body.mds3-admin-theme-dark .mds-support-passport-badge.is-slate,
+body.mds3-admin-theme-dark .mds-support-passport-card.is-slate {
+    color: #cbd5e1;
+}
+
+.mds-support-passport-checklist {
+    display: grid;
+    gap: 8px;
+    margin-left: 0;
+}
+
+.mds-support-passport-checklist li {
+    background: var(--mds3-admin-surface-subtle, #f6f7f7);
+    border: 1px solid var(--mds3-admin-border, #dcdcde);
+    border-radius: 8px;
+    list-style: none;
+    margin: 0;
+    padding: 10px 12px;
+}
+
+.mds-support-passport-pagination {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+.mds-support-passport-pagination > p {
+    color: var(--mds3-admin-muted, #646970);
+    margin: 0;
+}
+
+.mds-support-passport-pagination .page-numbers {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.mds-support-passport-pagination .page-numbers li {
+    margin: 0;
+}
+
+.mds-support-passport-pagination a.page-numbers,
+.mds-support-passport-pagination span.page-numbers {
+    align-items: center;
+    background: var(--mds3-admin-surface, #fff);
+    border: 1px solid var(--mds3-admin-border, #dcdcde);
+    border-radius: 6px;
+    color: var(--mds3-admin-text, #1d2327);
+    display: inline-flex;
+    justify-content: center;
+    min-height: 34px;
+    min-width: 34px;
+    padding: 4px 10px;
+    text-decoration: none;
+}
+
+.mds-support-passport-pagination span.page-numbers.current {
+    background: var(--mds3-admin-accent, #2563eb);
+    border-color: var(--mds3-admin-accent, #2563eb);
+    color: #ffffff;
+    font-weight: 700;
+}
+
+body.mds3-admin-theme-dark .mds-support-passport-admin .notice-success,
+body.mds3-admin-theme-dark .mds-support-passport-admin .notice-success.inline {
+    background: #052e26;
+    border-color: #34d399;
+    color: #a7f3d0;
+}
+
+body.mds3-admin-theme-dark .mds-support-passport-admin .notice-error,
+body.mds3-admin-theme-dark .mds-support-passport-admin .notice-error.inline {
+    background: #3f1219;
+    border-color: #f87171;
+    color: #fecaca;
+}
+
+body.mds3-admin-theme-dark .mds-support-passport-admin .notice-warning,
+body.mds3-admin-theme-dark .mds-support-passport-admin .notice-warning.inline {
+    background: #3b2606;
+    border-color: #fbbf24;
+    color: #fde68a;
+}
+
+body.mds3-admin-theme-dark .mds-support-passport-admin .notice-info,
+body.mds3-admin-theme-dark .mds-support-passport-admin .notice-info.inline {
+    background: #172554;
+    border-color: #60a5fa;
+    color: #bfdbfe;
+}
+
+@media (prefers-color-scheme: dark) {
+    body.mds3-admin-theme-system .mds-support-passport-badge.is-blue,
+    body.mds3-admin-theme-system .mds-support-passport-card.is-blue { color: #93c5fd; }
+
+    body.mds3-admin-theme-system .mds-support-passport-badge.is-green,
+    body.mds3-admin-theme-system .mds-support-passport-card.is-green { color: #6ee7b7; }
+
+    body.mds3-admin-theme-system .mds-support-passport-badge.is-gold,
+    body.mds3-admin-theme-system .mds-support-passport-card.is-gold { color: #fcd34d; }
+
+    body.mds3-admin-theme-system .mds-support-passport-badge.is-purple,
+    body.mds3-admin-theme-system .mds-support-passport-card.is-purple { color: #c4b5fd; }
+
+    body.mds3-admin-theme-system .mds-support-passport-badge.is-slate,
+    body.mds3-admin-theme-system .mds-support-passport-card.is-slate { color: #cbd5e1; }
+    body.mds3-admin-theme-system .mds-support-passport-admin .notice-success,
+    body.mds3-admin-theme-system .mds-support-passport-admin .notice-success.inline {
+        background: #052e26;
+        border-color: #34d399;
+        color: #a7f3d0;
+    }
+
+    body.mds3-admin-theme-system .mds-support-passport-admin .notice-error,
+    body.mds3-admin-theme-system .mds-support-passport-admin .notice-error.inline {
+        background: #3f1219;
+        border-color: #f87171;
+        color: #fecaca;
+    }
+
+    body.mds3-admin-theme-system .mds-support-passport-admin .notice-warning,
+    body.mds3-admin-theme-system .mds-support-passport-admin .notice-warning.inline {
+        background: #3b2606;
+        border-color: #fbbf24;
+        color: #fde68a;
+    }
+
+    body.mds3-admin-theme-system .mds-support-passport-admin .notice-info,
+    body.mds3-admin-theme-system .mds-support-passport-admin .notice-info.inline {
+        background: #172554;
+        border-color: #60a5fa;
+        color: #bfdbfe;
+    }
+}
+
+@media (max-width: 1100px) {
+    .mds-support-passport-filter-bar {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .mds-support-passport-filter-actions {
+        grid-column: 1 / -1;
+    }
+}
+
+@media (max-width: 600px) {
+    .mds-support-passport-actions {
+        align-items: stretch;
+        flex-direction: column;
+    }
+
+    .mds-support-passport-filter-bar,
+    .mds-support-passport-resource-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .mds-support-passport-filter-actions {
+        align-items: stretch;
+        flex-direction: column;
+    }
+
+    .mds-support-passport-link-row {
+        grid-template-columns: 1fr;
+    }
+
+    .mds-support-passport-pagination {
+        align-items: stretch;
+        flex-direction: column;
+    }
+
+    .mds-support-passport-actions form,
+    .mds-support-passport-revoke,
+    .mds-support-passport-actions .button,
+    .mds-support-passport-filter-actions .button,
+    .mds-support-passport-resource-card .button,
+    .mds-support-passport-inline-form input[type="text"],
+    .mds-support-passport-inline-form .button {
+        width: 100%;
+    }
+
+    .mds-support-passport-revoke-panel {
+        margin-top: 8px;
+        position: static;
+        width: auto;
+    }
+}

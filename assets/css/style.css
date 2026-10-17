@@ -1,0 +1,249 @@
+.mds-support-passport-proof-wrap {
+    margin: 0 auto;
+    max-width: 860px;
+    padding: 32px 16px;
+}
+
+.mds-support-passport-proof,
+.mds-support-passport-card {
+    background: #fff;
+    border: 1px solid #dcdcde;
+    border-radius: 8px;
+    color: #1d2327;
+    padding: 20px;
+}
+
+.mds-support-passport-proof h1,
+.mds-support-passport-card h3 {
+    margin-top: 0;
+}
+
+.mds-support-passport-badge-visual {
+    align-items: center;
+    background: #1d4ed8;
+    border-radius: 999px;
+    color: #fff;
+    display: inline-flex;
+    font-size: 18px;
+    font-weight: 800;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    margin-bottom: 12px;
+    overflow: hidden;
+    width: 48px;
+}
+
+.mds-support-passport-badge-visual.is-proof {
+    height: 64px;
+    width: 64px;
+}
+
+.mds-support-passport-badge-image {
+    display: block;
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+.mds-support-passport-proof dl {
+    display: grid;
+    gap: 12px;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+}
+
+.mds-support-passport-proof dt {
+    color: #646970;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.mds-support-passport-proof dd {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 2px 0 0;
+}
+
+.mds-support-passport-eyebrow,
+.mds-support-passport-note {
+    color: #646970;
+}
+
+.mds-support-passport-directory,
+.mds-support-passport-badges {
+    display: grid;
+    gap: 14px;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.mds-support-passport-directory-wrap {
+    display: grid;
+    gap: 16px;
+}
+
+.mds-support-passport-directory-search {
+    align-items: end;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.mds-support-passport-directory-search label {
+    display: grid;
+    flex: 1 1 240px;
+    gap: 5px;
+}
+
+.mds-support-passport-directory-search label > span {
+    color: #646970;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.mds-support-passport-directory-search input[type="search"] {
+    border: 1px solid #dcdcde;
+    border-radius: 6px;
+    min-height: 38px;
+    padding: 6px 10px;
+    width: 100%;
+}
+
+.mds-support-passport-directory-search button,
+.mds-support-passport-manage-form button,
+.mds-support-passport-manage-grants button {
+    background: #1d4ed8;
+    border: 1px solid #1d4ed8;
+    border-radius: 6px;
+    color: #fff;
+    cursor: pointer;
+    min-height: 38px;
+    padding: 6px 12px;
+}
+
+.mds-support-passport-directory-search a {
+    align-items: center;
+    color: #1d4ed8;
+    display: inline-flex;
+    min-height: 38px;
+}
+
+.mds-support-passport-empty {
+    background: #fff;
+    border: 1px solid #dcdcde;
+    border-radius: 8px;
+    color: #646970;
+    padding: 16px;
+}
+
+.mds-support-passport-pagination {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: space-between;
+}
+
+.mds-support-passport-pagination > p {
+    color: #4b5563;
+    margin: 0;
+}
+
+.mds-support-passport-pagination .page-numbers {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.mds-support-passport-pagination .page-numbers li {
+    margin: 0;
+}
+
+.mds-support-passport-pagination a.page-numbers,
+.mds-support-passport-pagination span.page-numbers {
+    align-items: center;
+    background: #ffffff;
+    border: 1px solid #9ca3af;
+    border-radius: 6px;
+    color: #1d2327;
+    display: inline-flex;
+    justify-content: center;
+    min-height: 38px;
+    min-width: 38px;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+.mds-support-passport-pagination span.page-numbers.current {
+    background: #1d4ed8;
+    border-color: #1d4ed8;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.mds-support-passport-card.is-blue,
+.mds-support-passport-proof.is-blue {
+    border-color: #93c5fd;
+}
+
+.mds-support-passport-badge-visual.is-blue {
+    background: #1d4ed8;
+}
+
+.mds-support-passport-card.is-green,
+.mds-support-passport-proof.is-green {
+    border-color: #86efac;
+}
+
+.mds-support-passport-badge-visual.is-green {
+    background: #047857;
+}
+
+.mds-support-passport-card.is-gold,
+.mds-support-passport-proof.is-gold {
+    border-color: #fbbf24;
+}
+
+.mds-support-passport-badge-visual.is-gold {
+    background: #92400e;
+}
+
+.mds-support-passport-card.is-purple,
+.mds-support-passport-proof.is-purple {
+    border-color: #c4b5fd;
+}
+
+.mds-support-passport-badge-visual.is-purple {
+    background: #6d28d9;
+}
+
+.mds-support-passport-card.is-slate,
+.mds-support-passport-proof.is-slate {
+    border-color: #94a3b8;
+}
+
+.mds-support-passport-badge-visual.is-slate {
+    background: #334155;
+}
+
+@media (max-width: 600px) {
+    .mds-support-passport-directory-search {
+        align-items: stretch;
+        flex-direction: column;
+    }
+
+    .mds-support-passport-directory-search label,
+    .mds-support-passport-directory-search button,
+    .mds-support-passport-directory-search a {
+        width: 100%;
+    }
+
+    .mds-support-passport-pagination {
+        align-items: stretch;
+        flex-direction: column;
+    }
+}
