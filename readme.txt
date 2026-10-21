@@ -4,7 +4,7 @@ Tags: million dollar script, supporters, badges, privacy
 Requires at least: 6.0
 Tested up to: 7.1.3
 Requires PHP: 8.1
-Stable tag: 0.2.0
+Stable tag: 0.2.1
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -35,6 +35,9 @@ Private manage links should be treated like account access links. Badge grants a
 Compatible extensions can call `\MillionDollarScript\Extensions\SupportPassport\mds_support_passport_grant_badge_for_source()` with a badge ID, supporter email, source extension slug, source entity type, and source entity ID. Duplicate grants are prevented for the same source identity.
 
 == Changelog ==
+
+= 0.2.1 =
+* Tested with WordPress 7.1.3 and WooCommerce 11.2.1, and the plugin states the exact versions it was tested with, so WordPress and WooCommerce no longer report it as untested on a current site.
 
 = 0.2.0 =
 * Hardened profile ownership, public eligibility, pagination, privacy exports, retention, and semantic notice contrast.
