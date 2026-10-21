@@ -3,7 +3,7 @@
  * Plugin Name: Million Dollar Script - Proof of Support Passport
  * Plugin URI: https://milliondollarscript.com/extensions/support-passport
  * Description: Issue privacy-first, site-local supporter badges and proof pages for Million Dollar Script.
- * Version: 0.2.1
+ * Version: 0.2.2
  * Author: Million Dollar Script
  * Author URI: https://milliondollarscript.com
  * Text Domain: mds-support-passport
@@ -36,7 +36,7 @@ if (!defined('ABSPATH')) {
 }
 
 if (!defined('MDS_SUPPORT_PASSPORT_VERSION')) {
-    define('MDS_SUPPORT_PASSPORT_VERSION', '0.2.1');
+    define('MDS_SUPPORT_PASSPORT_VERSION', '0.2.2');
 }
 
 if (!defined('MDS_SUPPORT_PASSPORT_DB_VERSION')) {
