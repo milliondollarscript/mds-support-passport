@@ -1,7 +1,7 @@
 # Changelog
 
-## Unreleased
-
+## 0.2.1 - 2026-10-21
+- Tested with WordPress 7.1.3 and WooCommerce 11.2.1, and the plugin states the exact versions it was tested with, so WordPress and WooCommerce no longer report it as untested on a current site.
 - Kept each badge's eligibility note out of the public badge feed unless the site turns it on for that badge; the note stays visible in badge administration either way.
 - Added opt-in uninstall cleanup through the core extension policy for extension-owned profiles, badges, grants, consent, proofs, audit records, settings, and transients.
 
